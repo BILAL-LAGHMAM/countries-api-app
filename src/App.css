@@ -1,38 +1,111 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: hsl(0, 0%, 98%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* start navBar */
+.navBar {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 15px 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navBar a {
+  text-decoration: none;
+  color: black;
+}
+
+.navBar a h1 {
+  font-weight: 900;
+}
+
+.navBar p {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.navBar p i {
+  font-size: 15px;
+}
+
+/* End navBar */
+
+/* start NavSearch */
+.NavSearch {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 30px 50px;
+}
+.NavSearch article:first-child {
+  background-color: white;
+  width: 30vw;
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  border-radius: 7px;
+}
+.NavSearch article:first-child i{
+  color: gray;
+}
+.NavSearch article:first-child input{
+  border: none;
+  outline: none;
+}
+.NavSearch article:last-child {
+  width: 15vw;
+}
+.NavSearch article:last-child select{
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+}
+/* end NavSearch */
+
+/* start countries */
+.countries{
+  width: 100%;
+  display: flex;
+  padding: 15px 50px;
+  flex-wrap: wrap;
+  gap: 49px;
+}
+.countrie{
+  width: 22%;
+  background-color: white;
+}
+.countrie article img{
+  width: 100%;
+}
+.countrie article:last-child{
+  padding: 15px;
+}
+.countrie article:last-child p{
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
+/* end countries */
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* start media */
+@media (max-width: 250px){
+  
 }
+/* end media */
