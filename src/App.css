@@ -102,10 +102,236 @@ body {
   flex-direction: column;
 }
 /* end countries */
+/* start single page */
+.sectionSingle{
+  padding: 30px 50px;
+}
+.single{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+}
+.single article:first-child{
+  width: 45%;
+}
+.single article:last-child{
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 
+}
+.single article img{
+  width: 100%;
+}
+.content{
+  display: flex;
+  justify-content: space-between;
+}
+.content p{
+  display: flex;
+  flex-direction: column;
+}
+.single article:last-child article:last-child{
+  margin-top: 20px;
+  width: 100%;
+}
+.single article:last-child article:last-child p{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.sectionSingle button{
+  background-color: white;
+  padding: 10px 30px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+/* end single page */
 
 /* start media */
-@media (max-width: 250px){
-  
+@media (max-width: 400px){
+  .navBar{
+    padding: 10px;
+  }
+  .navBar a h1{
+    font-size: 12px;
+  }
+  .navBar p{
+    font-size: 12px;
+  }
+  .NavSearch{
+    padding: 10px;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 10px;
+  }
+  .NavSearch article:last-child {
+    width: 60%;
+  }
+  .NavSearch article:last-child select{
+    padding: 10px;
+  }
+  .NavSearch article:first-child{
+    width: 100%;
+    padding: 10px;
+  }
+  .countries{
+    padding: 10px;
+    flex-direction: column;
+  }
+  .countrie{
+    width: 100%;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 600px){
+  .navBar{
+    padding: 15px;
+  }
+  .navBar a h1{
+    font-size: 12px;
+  }
+  .navBar p{
+    font-size: 12px;
+  }
+  .NavSearch{
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .NavSearch article:last-child {
+    width: 60%;
+  }
+  .NavSearch article:last-child select{
+    padding: 10px;
+  }
+  .NavSearch article:first-child{
+    width: 100%;
+    padding: 10px;
+  }
+  .countries{
+    padding: 10px;
+    flex-direction: row;
+    gap: 0;
+    justify-content: space-between;
+    row-gap: 20px;
+  }
+  .countrie{
+    width: 48%;
+  }
+}
+@media (min-width: 601px) and (max-width: 699px){
+  .navBar{
+    padding: 15px;
+  }
+  .navBar a h1{
+    font-size: 12px;
+  }
+  .navBar p{
+    font-size: 12px;
+  }
+  .NavSearch{
+    padding: 10px;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+  .NavSearch article:last-child {
+    width: 60%;
+  }
+  .NavSearch article:last-child select{
+    padding: 10px;
+  }
+  .NavSearch article:first-child{
+    width: 100%;
+    padding: 10px;
+  }
+  .countries{
+    padding: 10px;
+    flex-direction: row;
+    gap: 0;
+    justify-content: space-between;
+    row-gap: 20px;
+  }
+  .countrie{
+    width: 48%;
+  }
+}
+@media (min-width: 700px) and (max-width: 950px){
+  .navBar{
+    padding: 15px;
+  }
+  .navBar a h1{
+    font-size: 20px;
+  }
+  .navBar p{
+    font-size: 20px;
+  }
+  .NavSearch{
+    padding: 10px;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+  .NavSearch article:last-child {
+    width: 60%;
+  }
+  .NavSearch article:last-child select{
+    padding: 20px;
+  }
+  .NavSearch article:first-child{
+    width: 100%;
+    padding: 20px;
+  }
+  .countries{
+    padding: 10px;
+    flex-direction: row;
+    gap: 23px;
+    justify-content: space-between;
+    row-gap: 20px;
+  }
+  .countrie{
+    width: 31%;
+  }
+}
+@media (min-width: 951px) and (max-width: 1324px){
+  .navBar{
+    padding: 15px;
+  }
+  .navBar a h1{
+    font-size: 20px;
+  }
+  .navBar p{
+    font-size: 20px;
+  }
+  .NavSearch{
+    padding: 10px;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+  .NavSearch article:last-child {
+    width: 60%;
+  }
+  .NavSearch article:last-child select{
+    padding: 20px;
+  }
+  .NavSearch article:first-child{
+    width: 100%;
+    padding: 20px;
+  }
+  .countries{
+    padding: 10px;
+    flex-direction: row;
+    gap: 23px;
+    justify-content: space-between;
+    row-gap: 20px;
+  }
+  .countrie{
+    width: 23%;
+  }
 }
 /* end media */

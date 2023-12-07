@@ -1,16 +1,16 @@
 import { Link } from "react-router-dom";
 
-export default function Countrie() {
+export default function Countrie(props) {
     return <div className="countrie">
         <article>
-            <Link path=""><img src="https://flagcdn.com/w320/de.png" alt="" /></Link>
+            <Link to={`SingleCountrie/${props.numericCode}`}><img src={props.flags} alt={props.flags} /></Link>
         </article>
         <article>
-            <h3>Germany</h3>
+            <h3>{props.name}</h3>
             <p>
-                <span><b>Population:</b> 333</span>
-                <span><b>Region:</b> Europ</span>
-                <span><b>Capital:</b> Berlin</span>
+                <span><b>Population:</b> {props.population}</span>
+                <span><b>Region:</b> {props.region}</span>
+                <span><b>Capital:</b> {props.capital}</span>
             </p>
         </article>
     </div>
