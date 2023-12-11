@@ -50,6 +50,7 @@ body {
   width: 100%;
   padding: 30px 50px;
 }
+
 .NavSearch article:first-child {
   background-color: white;
   width: 30vw;
@@ -58,17 +59,21 @@ body {
   gap: 10px;
   border-radius: 7px;
 }
-.NavSearch article:first-child i{
+
+.NavSearch article:first-child i {
   color: gray;
 }
-.NavSearch article:first-child input{
+
+.NavSearch article:first-child input {
   border: none;
   outline: none;
 }
+
 .NavSearch article:last-child {
   width: 15vw;
 }
-.NavSearch article:last-child select{
+
+.NavSearch article:last-child select {
   width: 100%;
   background-color: white;
   padding: 20px;
@@ -76,262 +81,353 @@ body {
   border: none;
   outline: none;
 }
+
 /* end NavSearch */
 
 /* start countries */
-.countries{
+.countries {
   width: 100%;
   display: flex;
   padding: 15px 50px;
   flex-wrap: wrap;
   gap: 49px;
 }
-.countrie{
+
+.countrie {
   width: 22%;
   background-color: white;
 }
-.countrie article img{
+
+.countrie article img {
   width: 100%;
 }
-.countrie article:last-child{
+
+.countrie article:last-child {
   padding: 15px;
 }
-.countrie article:last-child p{
+
+.countrie article:last-child p {
   margin-top: 10px;
   display: flex;
   flex-direction: column;
 }
+
 /* end countries */
 /* start single page */
-.sectionSingle{
+.sectionSingle {
   padding: 30px 50px;
 }
-.single{
+
+.single {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
   align-items: center;
 }
-.single article:first-child{
+
+.single article:first-child {
   width: 45%;
 }
-.single article:last-child{
+
+.single article:last-child {
   width: 45%;
   display: flex;
   flex-direction: column;
   gap: 20px;
 
 }
-.single article img{
+
+.single article img {
   width: 100%;
 }
-.content{
+
+.content {
   display: flex;
   justify-content: space-between;
 }
-.content p{
+
+.content p {
   display: flex;
   flex-direction: column;
 }
-.single article:last-child article:last-child{
+
+.single article:last-child article:last-child {
   margin-top: 20px;
   width: 100%;
 }
-.single article:last-child article:last-child p{
+
+.single article:last-child article:last-child p {
   display: flex;
   gap: 10px;
   align-items: center;
 }
-.sectionSingle button{
+
+.sectionSingle button {
   background-color: white;
   padding: 10px 30px;
   border-radius: 7px;
   cursor: pointer;
 }
+
 /* end single page */
 
 /* start media */
-@media (max-width: 400px){
-  .navBar{
+@media (max-width: 400px) {
+  .navBar {
     padding: 10px;
   }
-  .navBar a h1{
+
+  .navBar a h1 {
     font-size: 12px;
   }
-  .navBar p{
+
+  .navBar p {
     font-size: 12px;
   }
-  .NavSearch{
+
+  .NavSearch {
     padding: 10px;
     flex-direction: column;
     align-items: baseline;
     gap: 10px;
   }
+
   .NavSearch article:last-child {
     width: 60%;
   }
-  .NavSearch article:last-child select{
+
+  .NavSearch article:last-child select {
     padding: 10px;
   }
-  .NavSearch article:first-child{
+
+  .NavSearch article:first-child {
     width: 100%;
     padding: 10px;
   }
-  .countries{
+
+  .countries {
     padding: 10px;
     flex-direction: column;
   }
-  .countrie{
+
+  .countrie {
     width: 100%;
   }
 }
 
-@media (min-width: 401px) and (max-width: 600px){
-  .navBar{
+@media (min-width: 401px) and (max-width: 600px) {
+  .navBar {
     padding: 15px;
   }
-  .navBar a h1{
+
+  .navBar a h1 {
     font-size: 12px;
   }
-  .navBar p{
+
+  .navBar p {
     font-size: 12px;
   }
-  .NavSearch{
+
+  .NavSearch {
     padding: 10px;
     flex-direction: column;
     align-items: center;
     gap: 10px;
   }
+
   .NavSearch article:last-child {
     width: 60%;
   }
-  .NavSearch article:last-child select{
+
+  .NavSearch article:last-child select {
     padding: 10px;
   }
-  .NavSearch article:first-child{
+
+  .NavSearch article:first-child {
     width: 100%;
     padding: 10px;
   }
-  .countries{
+
+  .countries {
     padding: 10px;
     flex-direction: row;
     gap: 0;
     justify-content: space-between;
     row-gap: 20px;
   }
-  .countrie{
+
+  .countrie {
     width: 48%;
   }
 }
-@media (min-width: 601px) and (max-width: 699px){
-  .navBar{
+
+@media (min-width: 601px) and (max-width: 699px) {
+  .navBar {
     padding: 15px;
   }
-  .navBar a h1{
+
+  .navBar a h1 {
     font-size: 12px;
   }
-  .navBar p{
+
+  .navBar p {
     font-size: 12px;
   }
-  .NavSearch{
+
+  .NavSearch {
     padding: 10px;
     flex-direction: row;
     align-items: center;
     gap: 10px;
   }
+
   .NavSearch article:last-child {
     width: 60%;
   }
-  .NavSearch article:last-child select{
+
+  .NavSearch article:last-child select {
     padding: 10px;
   }
-  .NavSearch article:first-child{
+
+  .NavSearch article:first-child {
     width: 100%;
     padding: 10px;
   }
-  .countries{
+
+  .countries {
     padding: 10px;
     flex-direction: row;
     gap: 0;
     justify-content: space-between;
     row-gap: 20px;
   }
-  .countrie{
+
+  .countrie {
     width: 48%;
   }
 }
-@media (min-width: 700px) and (max-width: 950px){
-  .navBar{
+
+@media (min-width: 700px) and (max-width: 950px) {
+  .navBar {
     padding: 15px;
   }
-  .navBar a h1{
+
+  .navBar a h1 {
     font-size: 20px;
   }
-  .navBar p{
+
+  .navBar p {
     font-size: 20px;
   }
-  .NavSearch{
+
+  .NavSearch {
     padding: 10px;
     flex-direction: row;
     align-items: center;
     gap: 10px;
   }
+
   .NavSearch article:last-child {
     width: 60%;
   }
-  .NavSearch article:last-child select{
+
+  .NavSearch article:last-child select {
     padding: 20px;
   }
-  .NavSearch article:first-child{
+
+  .NavSearch article:first-child {
     width: 100%;
     padding: 20px;
   }
-  .countries{
+
+  .countries {
     padding: 10px;
     flex-direction: row;
     gap: 23px;
     justify-content: space-between;
     row-gap: 20px;
   }
-  .countrie{
+
+  .countrie {
     width: 31%;
   }
 }
-@media (min-width: 951px) and (max-width: 1324px){
-  .navBar{
+
+@media (min-width: 951px) and (max-width: 1324px) {
+  .navBar {
     padding: 15px;
   }
-  .navBar a h1{
+
+  .navBar a h1 {
     font-size: 20px;
   }
-  .navBar p{
+
+  .navBar p {
     font-size: 20px;
   }
-  .NavSearch{
+
+  .NavSearch {
     padding: 10px;
     flex-direction: row;
     align-items: center;
     gap: 10px;
   }
+
   .NavSearch article:last-child {
     width: 60%;
   }
-  .NavSearch article:last-child select{
+
+  .NavSearch article:last-child select {
     padding: 20px;
   }
-  .NavSearch article:first-child{
+
+  .NavSearch article:first-child {
     width: 100%;
     padding: 20px;
   }
-  .countries{
+
+  .countries {
     padding: 10px;
     flex-direction: row;
     gap: 23px;
     justify-content: space-between;
     row-gap: 20px;
   }
-  .countrie{
+
+  .countrie {
     width: 23%;
   }
 }
+
 /* end media */
+
+/* start Dark Mode */
+.text-Dark {
+  color: hsl(0, 0%, 100%);
+}
+
+.bg-Dark-countrie {
+  background-color: hsl(209, 23%, 22%) !important;
+}
+
+.bg-Dark-app {
+  background-color: hsl(207, 26%, 17%);
+}
+
+.bg-Dark-button {
+  background-color: hsl(209, 23%, 22%) !important;
+  border-color: hsl(209, 23%, 22%);
+}
+
+.btnMode {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.btnDark{
+  color: hsl(0, 0%, 100%);
+}
+/* end Dark Mode */
